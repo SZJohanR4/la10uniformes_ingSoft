@@ -10,6 +10,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="gui_cliente.inicioCliente"
-    tools:showIn="@layout/app_bar_inicio_cliente">
+    tools:showIn="@layout/app_bar_inicio_cliente"
+    android:id="@+id/content_inicio_cliente">
+
 
 </RelativeLayout>

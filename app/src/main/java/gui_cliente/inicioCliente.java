@@ -18,7 +18,9 @@ import android.view.MenuItem;
 import ingsoftware.la10uniformes_ingsoft.R;
 
 public class inicioCliente extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener,
+        fragmentProveedor.OnFragmentInteractionListener, fragment_calificaciones.OnFragmentInteractionListener,
+        fragment_Reservas.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -101,15 +103,12 @@ public class inicioCliente extends AppCompatActivity
             fragmentTransaction=true;
         }else if (id==R.id.action_settings){
 
-        }else if(id==R.id.imgproveedor1){
-
-
         }
 
 
         if (fragmentTransaction) {
             getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.content_main,fragment)
+                    .replace(R.id.content_inicio_cliente,fragment)
                     .commit();
             item.setChecked(true);
             getSupportActionBar().setTitle(item.getTitle());
