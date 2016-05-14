@@ -5,5 +5,5 @@ package ingsoftware.la10uniformes_ingsoft;
  */
 public class Main {
 
-    //TODO CODIGO LOGICO AQUI :V
+    //hola
 }
