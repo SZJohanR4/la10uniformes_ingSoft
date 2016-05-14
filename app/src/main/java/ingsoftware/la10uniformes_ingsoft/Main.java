@@ -5,5 +5,5 @@ package ingsoftware.la10uniformes_ingsoft;
  */
 public class Main {
 
-    //hola
+    //hola mundo
 }
