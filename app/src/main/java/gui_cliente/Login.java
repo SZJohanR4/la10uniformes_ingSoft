@@ -12,7 +12,7 @@ import android.widget.Button;
 
 import ingsoftware.la10uniformes_ingsoft.R;
 
-public class Main extends AppCompatActivity{
+public class Login extends AppCompatActivity{
     Button ingresar;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ public class Main extends AppCompatActivity{
         ingresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ingresar= new Intent(Main.this, Cliente.class);
+                Intent ingresar= new Intent(Login.this, inicioCliente.class);
                 startActivity(ingresar);
 
             }

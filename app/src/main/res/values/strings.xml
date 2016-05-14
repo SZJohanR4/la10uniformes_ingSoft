@@ -4,4 +4,10 @@
     <string name="userName">Nombre</string>
     <string name="userPassword">Contraseña</string>
     <string name="ingresar">Ingresar</string>
+    <string name="title_activity_inicio_cliente">Inicio</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>
