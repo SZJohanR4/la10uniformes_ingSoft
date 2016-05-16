@@ -15,7 +15,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-//si vio ayer el torneo?
+
 import ingsoftware.la10uniformes_ingsoft.R;
 
 public class inicioCliente extends AppCompatActivity
