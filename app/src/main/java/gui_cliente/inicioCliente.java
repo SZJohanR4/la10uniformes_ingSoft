@@ -18,6 +18,7 @@ import android.view.MenuItem;
 
 import ingsoftware.la10uniformes_ingsoft.R;
 //hola sebas :D pirobo
+//chupelo .. esa porqueria no le detecta erores
 public class inicioCliente extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,
         fragmentProveedor.OnFragmentInteractionListener, fragment_calificaciones.OnFragmentInteractionListener,
