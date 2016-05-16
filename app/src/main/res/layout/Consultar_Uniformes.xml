@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e2e9"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uniformes"
+        android:id="@+id/textView"
+        android:layout_weight="0.04"
+        android:background="#3f59aa"
+        android:autoText="false"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#f5f3f3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:elegantTextHeight="@bool/abc_allow_stacked_button_bar"
+        android:textIsSelectable="false"
+        android:textStyle="bold" />
+
+
+
+    <LinearLayout
+        android:id= "@+id/linearLayout1"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="#999999"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+    <Button
+      android:id= "@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="@string/Anterior"
+        android:background="#040c55"
+        android:textColor="#f7f0f0"
+        android:textStyle="bold" />
+
+        <Button
+            android:id= "@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Siguiente"
+            android:textStyle="bold"
+            android:textColor="#f8f2f2"
+            android:background="#040c55" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/img1"
+            android:gravity="center"
+            android:height="60dp"
+            android:textStyle="bold"
+            android:textColor="#f9f6f6" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/foto1"
+        android:padding="70dp"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#efebe9" />
+
+
+</RelativeLayout>
