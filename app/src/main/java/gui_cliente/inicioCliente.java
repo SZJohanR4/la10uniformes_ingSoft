@@ -17,7 +17,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import ingsoftware.la10uniformes_ingsoft.R;
-
+//hola sebas :D pirobo
 public class inicioCliente extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,
         fragmentProveedor.OnFragmentInteractionListener, fragment_calificaciones.OnFragmentInteractionListener,
